@@ -1,7 +1,6 @@
 .navbar {
   background: #3474e6;
   color: #fff;
-  height: 60px;
 
   .logo {
     font-size: x-large;
@@ -23,17 +22,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 1.85em;
 
     ul {
       display: flex;
       list-style: none;
 
       li {
-        margin: 20px;
+        margin: 1.25em;
       }
     }
   }
