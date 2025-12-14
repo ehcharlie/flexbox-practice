@@ -1,0 +1,36 @@
+.boxes {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .box {
+    flex: 1;
+    background-color: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  //stacks them if the pixel size is below 768px
+  .boxes {
+    .container {
+      display: block;
+      text-align: center;
+    }
+  }
+}
